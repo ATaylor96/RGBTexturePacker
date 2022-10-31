@@ -7,19 +7,19 @@
     <x>0</x>
     <y>0</y>
     <width>738</width>
-    <height>338</height>
+    <height>298</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>738</width>
-    <height>338</height>
+    <height>298</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
     <width>738</width>
-    <height>338</height>
+    <height>298</height>
    </size>
   </property>
   <property name="font">
@@ -57,6 +57,9 @@
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -181,25 +184,6 @@
     </property>
     <property name="text">
      <string>Blue Channel</string>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="useAlphaCheckBox">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>160</y>
-      <width>91</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial</family>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Use Alpha?</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="alphaLineEdit">
@@ -471,7 +455,7 @@
       <x>10</x>
       <y>210</y>
       <width>451</width>
-      <height>31</height>
+      <height>71</height>
      </rect>
     </property>
     <property name="font">
@@ -484,37 +468,7 @@
      <string>Pack Textures</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="saveButton">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>250</y>
-      <width>451</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial</family>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Save...</string>
-    </property>
-   </widget>
   </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>738</width>
-     <height>21</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
